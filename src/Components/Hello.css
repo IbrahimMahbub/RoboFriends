@@ -1,0 +1,21 @@
+.hlo{
+    width: 20rem;
+    border-radius: 16px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.hlo img{
+    width: 100%;
+    border-radius: 8px;
+}
+.hlo p{
+    padding-bottom: 1rem;
+}
+
+
+.hlo a{
+    color: #000835;
+    padding: .5rem 2rem;
+    border: 2px #00BFFF solid;
+    border-radius: 8px;
+}

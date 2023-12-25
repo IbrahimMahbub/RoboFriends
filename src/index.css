@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Patua+One&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url(./Assets/image/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+.mm{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.herotext{
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  font-family: 'Lilita One', sans-serif;
+}
+
+.sb{
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sf{
+  width: 75%;
+  padding: 1rem 1rem;
+  border: 1px solid grey;
+  border-radius: 100px;
+  font-size: 1rem;
+  background: rgba(233, 222, 222, 0.2);
+  color: aqua;
+  backdrop-filter: blur(8px);
+}
+
+::placeholder {
+  color: aliceblue;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: aliceblue;
+}

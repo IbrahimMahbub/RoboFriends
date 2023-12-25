@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Lilita+One&display=swap');
+
+.crd{
+    padding: 1rem;
+    /* background-color: #fff; */
+    margin: 1rem;
+    width: 20rem;
+    transition: transform .2s;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid gray;
+}
+.crd:hover{
+    transform: scale(1.03);
+}
+.crd img{
+    background: rgba(255, 255, 255, 0.20);
+    width: 100%;
+    border-radius: 8px;
+}
+.crd .content{
+    text-align: center;
+    color: whitesmoke;
+}
+.crd .content h2{
+    color: aqua;
+    font-family: 'Courier Prime', monospace;
+
+}
